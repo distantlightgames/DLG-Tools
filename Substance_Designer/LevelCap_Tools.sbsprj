@@ -100,7 +100,28 @@
 		</mdl>
 		<library>
 			<watchedPaths>
-				<size>0</size>
+				<size>3</size>
+				<_3 prefix="_">
+					<url>$(PROJECT_DIR)://Materials</url>
+					<isRecursive>true</isRecursive>
+					<isEnabled>true</isEnabled>
+					<excludePattern></excludePattern>
+					<excludeFilter>sbsar</excludeFilter>
+				</_3>
+				<_2 prefix="_">
+					<url>$(PROJECT_DIR)://Nodes</url>
+					<isRecursive>true</isRecursive>
+					<isEnabled>true</isEnabled>
+					<excludePattern></excludePattern>
+					<excludeFilter>sbsar</excludeFilter>
+				</_2>
+				<_1 prefix="_">
+					<url>file:///home/johnlogostini/Gentoo/Drives/2TB_NVME_Data_Drive/Source/Repositories/LevelCap_Tools/Substance_Painter/materials</url>
+					<isRecursive>true</isRecursive>
+					<isEnabled>true</isEnabled>
+					<excludePattern></excludePattern>
+					<excludeFilter></excludeFilter>
+				</_1>
 			</watchedPaths>
 			<settingsInfo>
 				<version>2</version>
