@@ -1,0 +1,39 @@
+# Autosaves
+*.blend*
+!*.blend
+*bak*.hip*
+*bak*.hda*
+*.autosave
+*_autosave_*.spp
+
+# Temporary Files
+*.spp.painter_lock
+*.assbin
+
+# Linux Generated Files
+*~
+.directory
+*.kate-swp
+
+# Vim Generated Files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Windows Generated Files
+ehthumbs.db
+Thumbs.db
+
+# Mac Generated Files
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
