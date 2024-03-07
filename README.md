@@ -1,5 +1,5 @@
 # LevelCap Tools
-A set of tools for various programs made to assist in the creation of games made by LevelCap
+A set of tools for various programs made to assist in the creation of games made by LevelCap Rich Joslin and JohnLogostini
 -
 ### Supported Programs
 - Blender 4.0.2
