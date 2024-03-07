@@ -21,6 +21,9 @@
 			<workspaces>
 				<size>0</size>
 			</workspaces>
+			<settingsInfo>
+				<version>2</version>
+			</settingsInfo>
 		</versionControl>
 		<scripting>
 			<interpreters>
@@ -62,7 +65,10 @@
 		</scenes3d>
 		<sbstemplates>
 			<dirs>
-				<size>0</size>
+				<size>1</size>
+				<_1 prefix="_">
+					<url>$(PROJECT_DIR)://Templates</url>
+				</_1>
 			</dirs>
 		</sbstemplates>
 		<resources>
@@ -96,6 +102,9 @@
 			<watchedPaths>
 				<size>0</size>
 			</watchedPaths>
+			<settingsInfo>
+				<version>2</version>
+			</settingsInfo>
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
