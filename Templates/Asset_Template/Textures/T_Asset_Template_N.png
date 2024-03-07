@@ -1,0 +1,1 @@
+The _N Texture stores an XYZ Tangent Space Normal Map in the DirectX format this can also be used in OpenGL programs by inverting the Y vector that's stored in the Green channel

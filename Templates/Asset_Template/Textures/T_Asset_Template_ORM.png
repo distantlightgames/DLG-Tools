@@ -1,0 +1,1 @@
+The _ORM Texture stores 3 data maps  packed into a single texture the Red Channel contains the Ambient Occlusion referred to as O for Occlusion the Green channels stores the Roughness map which is referred to as R and the Blue channel stores the Metallic map referred to as M

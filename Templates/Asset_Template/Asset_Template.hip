@@ -1,0 +1,1 @@
+The .hip file is a Houdini Project this can also be named .hiplc the lc at the end stands for limited commercial

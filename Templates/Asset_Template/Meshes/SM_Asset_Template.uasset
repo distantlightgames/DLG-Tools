@@ -1,0 +1,1 @@
+_SM_Asset_Template.uasset stores all mesh LODs and handles switching between them depending on screen size or switching out the LODs for the Nanite mesh wean Nanite is supported it also links the material to the meshes and stores any other settings for the mesh

@@ -1,0 +1,1 @@
+The _Low Filmbox mesh is used in your painting application and is what is used for baking mesh maps it has the same UVs and Normals as the final LOD 0 Mesh but is not used as LOD 0 in case mesh or vertex data is needed on LOD 0 when importing into the game engine that will cause problems wean baking
