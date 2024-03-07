@@ -108,7 +108,7 @@
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
-			<normal_filter_alpha_channel_content>alpha_to_one</normal_filter_alpha_channel_content>
+			<normal_filter_alpha_channel_content>alpha_from_input</normal_filter_alpha_channel_content>
 			<image_options>
 				<webp>
 					<write>
@@ -118,7 +118,7 @@
 				</webp>
 				<tif>
 					<write>
-						<tif_compression>lzw</tif_compression>
+						<tif_compression>jpeg</tif_compression>
 					</write>
 				</tif>
 				<tga>
@@ -129,7 +129,7 @@
 				<png>
 					<write>
 						<png_interlaced>false</png_interlaced>
-						<png_compression>best_speed</png_compression>
+						<png_compression>best_compression</png_compression>
 					</write>
 				</png>
 				<jpg>
