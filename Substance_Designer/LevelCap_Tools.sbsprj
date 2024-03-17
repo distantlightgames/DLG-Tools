@@ -2,20 +2,28 @@
 <root>
 	<showresourcesinlibrary>true</showresourcesinlibrary>
 	<showgraphsinlibrary>true</showgraphsinlibrary>
+	<showResourcesInLibrary>true</showResourcesInLibrary>
+	<showGraphsInLibrary>true</showGraphsInLibrary>
 	<settingsInfo>
 		<version>2</version>
 	</settingsInfo>
-	<projectinfo>
+	<projectInfo>
 		<label>LevelCap Tools</label>
-	</projectinfo>
+	</projectInfo>
 	<preferences>
 		<view3d>
 			<statesavefileurl>file:///home/johnlogostini/.local/share/Allegorithmic/Substance Designer/user_view3d_settings.sbsscn</statesavefileurl>
+			<stateSaveFileUrl>file:///home/johnlogostini/.local/share/Allegorithmic/Substance Designer/user_view3d_settings.sbsscn</stateSaveFileUrl>
 			<ispointlight2enable>false</ispointlight2enable>
 			<ispointlight1enable>false</ispointlight1enable>
 			<isambientlightenable>true</isambientlightenable>
+			<isPointLight2Enable>false</isPointLight2Enable>
+			<isPointLight1Enable>false</isPointLight1Enable>
+			<isAmbientLightEnable>true</isAmbientLightEnable>
 			<defaultshaderurl>sd-3dview-shaders://adobe_standard_material.glslfx</defaultshaderurl>
 			<defaultenvironmentmapurl>sd-3dview-maps://panorama_map.hdr</defaultenvironmentmapurl>
+			<defaultShaderUrl>sd-3dview-shaders://adobe_standard_material.glslfx</defaultShaderUrl>
+			<defaultEnvironmentMapUrl>sd-3dview-maps://panorama_map.hdr</defaultEnvironmentMapUrl>
 		</view3d>
 		<versionControl>
 			<workspaces>
@@ -72,9 +80,9 @@
 			</dirs>
 		</sbstemplates>
 		<resources>
-			<urlaliases>
+			<urlAliases>
 				<size>0</size>
-			</urlaliases>
+			</urlAliases>
 		</resources>
 		<python>
 			<plugin_paths>
@@ -88,8 +96,16 @@
 			<ocioconfig>substance</ocioconfig>
 			<ociocolormanagegraphthumbnails>false</ociocolormanagegraphthumbnails>
 			<ocioautodetectcolorspacefromfilenamemethod>parse_filename</ocioautodetectcolorspacefromfilenamemethod>
+			<ocioFloatBitmapColorSpace>Linear</ocioFloatBitmapColorSpace>
+			<ocioDefaultView>sRGB</ocioDefaultView>
+			<ocioDefaultDisplay>Default</ocioDefaultDisplay>
+			<ocioConfig>substance</ocioConfig>
+			<ocioColorManageGraphThumbnails>false</ocioColorManageGraphThumbnails>
+			<ocioAutoDetectColorSpaceFromFileNameMethod>parse_filename</ocioAutoDetectColorSpaceFromFileNameMethod>
 			<ocio8bitbitmapcolorspace>Linear</ocio8bitbitmapcolorspace>
+			<ocio8BitBitmapColorSpace>Linear</ocio8BitBitmapColorSpace>
 			<ocio16bitbitmapcolorspace>Linear</ocio16bitbitmapcolorspace>
+			<ocio16BitBitmapColorSpace>Linear</ocio16BitBitmapColorSpace>
 		</ocio>
 		<mdl>
 			<iray>
@@ -99,23 +115,24 @@
 			</iray>
 		</mdl>
 		<library>
-			<watchedpaths>
+			<watchedPaths>
 				<size>2</size>
 				<_2 prefix="_">
 					<url>$(PROJECT_DIR)://Materials</url>
-					<isrecursive>true</isrecursive>
-					<isenabled>true</isenabled>
-					<excludefilter>sbsar</excludefilter>
+					<isRecursive>true</isRecursive>
+					<isEnabled>true</isEnabled>
+					<excludePattern></excludePattern>
+					<excludeFilter>sbsar</excludeFilter>
 				</_2>
 				<_1 prefix="_">
 					<url>$(PROJECT_DIR)://Nodes</url>
-					<isrecursive>true</isrecursive>
-					<isenabled>true</isenabled>
-					<excludefilter>sbsar</excludefilter>
+					<isRecursive>true</isRecursive>
+					<isEnabled>true</isEnabled>
+					<excludePattern></excludePattern>
+					<excludeFilter>sbsar</excludeFilter>
 				</_1>
-			</watchedpaths>
+			</watchedPaths>
 			<settingsInfo>
-				<version>2</version>
 				<version>2</version>
 			</settingsInfo>
 		</library>
@@ -174,73 +191,71 @@
 		</general>
 		<colormanagement>
 			<colormanagementengine>legacy</colormanagementengine>
+			<colorManagementEngine>legacy</colorManagementEngine>
 		</colormanagement>
 		<bakers>
-			<namefilters>
+			<nameFilters>
 				<size>3</size>
 				<_3 prefix="_">
-					<namefilter>
+					<nameFilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_Ignorebf</value>
-							<namefilter>suffix</namefilter>
+							<value>_ignorebf</value>
+							<nameFilter>suffix</nameFilter>
 						</_1>
-					</namefilter>
-					<meshid>ignore_backfaces</meshid>
+					</nameFilter>
+					<meshID>ignore_backfaces</meshID>
 				</_3>
 				<_2 prefix="_">
-					<namefilter>
+					<nameFilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_High</value>
-							<namefilter>suffix</namefilter>
+							<value>_high</value>
+							<nameFilter>suffix</nameFilter>
 						</_1>
-					</namefilter>
-					<meshid>high_poly_mesh</meshid>
+					</nameFilter>
+					<meshID>high_poly_mesh</meshID>
 				</_2>
 				<_1 prefix="_">
-					<namefilter>
+					<nameFilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_Low</value>
-							<namefilter>suffix</namefilter>
+							<value>_low</value>
+							<nameFilter>suffix</nameFilter>
 						</_1>
-					</namefilter>
-					<meshid>low_poly_mesh</meshid>
+					</nameFilter>
+					<meshID>low_poly_mesh</meshID>
 				</_1>
-			</namefilters>
+			</nameFilters>
 			<defaultresourcename>T_$(mesh)_$(bakername)</defaultresourcename>
-			<bakersmacros>
+			<bakersMacros>
 				<size>17</size>
 				<_9 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>N</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.NormalFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.NormalFromDetail</bakerID>
 				</_9>
 				<_8 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>T</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.MaskFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.MaskFromDetail</bakerID>
 				</_8>
 				<_7 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>H</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.HeightFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.HeightFromDetail</bakerID>
 				</_7>
 				<_6 prefix="_">
 					<macros>
@@ -249,17 +264,16 @@
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.CurvatureFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.CurvatureFromDetail</bakerID>
 				</_6>
 				<_5 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>CURVATURE</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.Curvature1FromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.Curvature1FromDetail</bakerID>
 				</_5>
 				<_4 prefix="_">
 					<macros>
@@ -268,67 +282,61 @@
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.Curvature</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.Curvature</bakerID>
 				</_4>
 				<_3 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>A</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.ColorFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.ColorFromDetail</bakerID>
 				</_3>
 				<_2 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>BENTN</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.BentNormalsFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.BentNormalsFromDetail</bakerID>
 				</_2>
 				<_17 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>UV</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>VectorialMeshConverter</bakerid>
+					<bakerID>VectorialMeshConverter</bakerID>
 				</_17>
 				<_16 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>WSDIR</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.WorldDirection</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.WorldDirection</bakerID>
 				</_16>
 				<_15 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>THICKNESS</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.ThicknessFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.ThicknessFromDetail</bakerID>
 				</_15>
 				<_14 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>REPROJECTED</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.TextureFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.TextureFromDetail</bakerID>
 				</_14>
 				<_13 prefix="_">
 					<macros>
@@ -337,49 +345,45 @@
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.SeAO</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.SeAO</bakerID>
 				</_13>
 				<_12 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>MESHPOSITION</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.PositionFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.PositionFromDetail</bakerID>
 				</_12>
 				<_11 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>POSITION</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.Position</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.Position</bakerID>
 				</_11>
 				<_10 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>WSN</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.NormalWS</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.NormalWS</bakerID>
 				</_10>
 				<_1 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>O</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
-					<bakerid>BakerMeshConverterGLMapBakerManager.AOFromDetail</bakerid>
+					<bakerID>BakerMeshConverterGLMapBakerManager.AOFromDetail</bakerID>
 				</_1>
-			</bakersmacros>
+			</bakersMacros>
 		</bakers>
 		<ace>
 			<aceuseembeddedprofiles>true</aceuseembeddedprofiles>
@@ -388,9 +392,18 @@
 			<acedefaultworkingspace>srgb</acedefaultworkingspace>
 			<acedefaultdisplayspace>sRGB IEC61966-2.1</acedefaultdisplayspace>
 			<acecolormanagegraphthumbnails>false</acecolormanagegraphthumbnails>
+			<aceUseEmbeddedProfiles>true</aceUseEmbeddedProfiles>
+			<aceRenderingIntent>relative-colorimetric</aceRenderingIntent>
+			<aceFloatBitmapColorSpace>Raw</aceFloatBitmapColorSpace>
+			<aceDefaultWorkingSpace>srgb</aceDefaultWorkingSpace>
+			<aceDefaultDisplaySpace>sRGB IEC61966-2.1</aceDefaultDisplaySpace>
+			<aceColorManageGraphThumbnails>false</aceColorManageGraphThumbnails>
 			<ace8bitbitmapcolorspace>sRGB IEC61966-2.1</ace8bitbitmapcolorspace>
+			<ace8BitBitmapColorSpace>sRGB IEC61966-2.1</ace8BitBitmapColorSpace>
 			<ace16bitbitmapcolorspace>sRGB IEC61966-2.1</ace16bitbitmapcolorspace>
+			<ace16BitBitmapColorSpace>sRGB IEC61966-2.1</ace16BitBitmapColorSpace>
 		</ace>
 	</preferences>
 	<isvisible>true</isvisible>
+	<isVisible>true</isVisible>
 </root>
