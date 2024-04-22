@@ -210,7 +210,7 @@
 					<nameFilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_high</value>
+							<value>_High</value>
 							<nameFilter>suffix</nameFilter>
 						</_1>
 					</nameFilter>
@@ -220,7 +220,7 @@
 					<nameFilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_low</value>
+							<value>_Low</value>
 							<nameFilter>suffix</nameFilter>
 						</_1>
 					</nameFilter>
@@ -228,12 +228,14 @@
 				</_1>
 			</nameFilters>
 			<defaultresourcename>T_$(mesh)_$(bakername)</defaultresourcename>
+			<defaultResourceName>T_$(mesh)_$(bakername)</defaultResourceName>
 			<bakersMacros>
 				<size>17</size>
 				<_9 prefix="_">
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>N</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -243,6 +245,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>T</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -252,6 +255,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>H</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -270,6 +274,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>CURVATURE</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -288,6 +293,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>A</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -297,6 +303,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>BN</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -306,6 +313,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>UV</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -315,6 +323,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>WSD</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -324,6 +333,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>THICKNESS</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -333,6 +343,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>REPROJECTED</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -351,6 +362,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>MESH_POSITION</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -360,6 +372,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>POSITION</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -369,6 +382,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>WSN</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
@@ -378,6 +392,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
+							<value>O</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
