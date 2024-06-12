@@ -135,6 +135,39 @@
 			<settingsInfo>
 				<version>2</version>
 			</settingsInfo>
+			<filters>
+				<queries>
+					<size>2</size>
+					<_2 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchPattern>LevelCap</searchPattern>
+									<resourceMimeType></resourceMimeType>
+									<fieldId>2</fieldId>
+									<comparisonOperator>2</comparisonOperator>
+								</_2>
+								<_1 prefix="_">
+									<searchPattern>Material</searchPattern>
+									<resourceMimeType></resourceMimeType>
+									<fieldId>2</fieldId>
+									<comparisonOperator>2</comparisonOperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Materials</label>
+						<id>qid_68</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_2>
+					<_1 prefix="_">
+						<label>LevelCap Tools</label>
+						<id>Folder 2</id>
+						<icon>.</icon>
+					</_1>
+				</queries>
+			</filters>
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
