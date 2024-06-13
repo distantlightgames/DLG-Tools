@@ -125,18 +125,12 @@
 					<_2 prefix="_">
 						<request>
 							<conditions>
-								<size>2</size>
-								<_2 prefix="_">
-									<searchpattern>LevelCap</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
-								</_2>
+								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern>Material</searchpattern>
+									<searchpattern>Materials</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
+									<fieldid>6</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
