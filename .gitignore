@@ -9,6 +9,7 @@
 # Temporary Files
 *.spp.painter_lock
 *.assbin
+Substance_Painter/*/README.txt
 
 # Linux Generated Files
 *~
