@@ -6,6 +6,9 @@
 
 VERSION 1
 
+4bad7a91-56e0-48a4-9912-f99e21e851ef:Assets:Assets
+9d6692ab-f1e0-4c7c-a687-5d9bfef44a3c:Assets/Sculpting:Assets-Sculpting
+7a94d3d9-5a3b-4cb1-8d77-175d6a158d57:Assets/Sculpting/Asteroids:Assets-Sculpting-Asteroids
 e38b365d-622d-4b5f-8732-326c51b42dbd:Materials:Materials
 afa51565-62bc-4899-ba25-3560734b6ade:Materials/Node Groups:Materials-Node Groups
 5c69f570-ce54-42b6-b11a-244d3cc27648:Materials/Node Groups/Conversion:Materials-Node Groups-Conversion
