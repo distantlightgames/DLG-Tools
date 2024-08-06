@@ -134,14 +134,14 @@
 								</_1>
 							</conditions>
 						</request>
-						<path>Folder 2</path>
+						<path>Folder 1</path>
 						<label>Materials</label>
 						<id>qid_68</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_2>
 					<_1 prefix="_">
 						<label>LevelCap Tools</label>
-						<id>Folder 2</id>
+						<id>Folder 1</id>
 						<icon>.</icon>
 					</_1>
 				</queries>
