@@ -121,7 +121,24 @@
 			</settingsinfo>
 			<filters>
 				<queries>
-					<size>2</size>
+					<size>3</size>
+					<_3 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern>Filters</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>6</fieldid>
+									<comparisonoperator>4</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Filters</label>
+						<id>qid_56</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_3>
 					<_2 prefix="_">
 						<request>
 							<conditions>
