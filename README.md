@@ -1,5 +1,5 @@
-# LevelCap Tools
-A set of tools for various programs made to assist in the creation of games made by LevelCap, Rich Joslin, and JohnLogostini
+# Distant Light Games Tools
+This Repository includes a tool set for various programs made to assist in the creation of projects made by Distant Light Games aka Charlie Goldberg, Rich Joslin, and JohnLogostini
 -
 ### Supported Programs
 - Blender 4.1.1
