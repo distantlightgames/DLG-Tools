@@ -5,6 +5,7 @@
 *bak*.hda*
 *.autosave
 *_autosave_*.spp
+*.alg_meta
 
 # Temporary Files
 *.spp.painter_lock
