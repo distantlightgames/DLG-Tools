@@ -6,7 +6,7 @@
 		<version>2</version>
 	</settingsinfo>
 	<projectinfo>
-		<label>LevelCap Tools</label>
+		<label>DistantLight Tools</label>
 	</projectinfo>
 	<preferences>
 		<view3d>
@@ -128,7 +128,6 @@
 								<size>1</size>
 								<_1 prefix="_">
 									<searchpattern>Filters</searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>6</fieldid>
 									<comparisonoperator>4</comparisonoperator>
 								</_1>
@@ -145,7 +144,6 @@
 								<size>1</size>
 								<_1 prefix="_">
 									<searchpattern>Materials</searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>6</fieldid>
 									<comparisonoperator>4</comparisonoperator>
 								</_1>
