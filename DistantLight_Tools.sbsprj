@@ -21,9 +21,6 @@
 			<workspaces>
 				<size>0</size>
 			</workspaces>
-			<settingsinfo>
-				<version>2</version>
-			</settingsinfo>
 		</versioncontrol>
 		<scripting>
 			<interpreters>
@@ -116,53 +113,6 @@
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_1>
 			</watchedpaths>
-			<settingsinfo>
-				<version>2</version>
-			</settingsinfo>
-			<filters>
-				<queries>
-					<size>3</size>
-					<_3 prefix="_">
-						<request>
-							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern>Filters</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>6</fieldid>
-									<comparisonoperator>4</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 1</path>
-						<label>Filters</label>
-						<id>qid_56</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_3>
-					<_2 prefix="_">
-						<request>
-							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern>Materials</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>6</fieldid>
-									<comparisonoperator>4</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 1</path>
-						<label>Materials</label>
-						<id>qid_68</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_2>
-					<_1 prefix="_">
-						<label>LevelCap Tools</label>
-						<id>Folder 1</id>
-						<icon>.</icon>
-					</_1>
-				</queries>
-			</filters>
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
