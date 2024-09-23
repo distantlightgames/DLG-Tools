@@ -227,7 +227,7 @@
 					<namefilter>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>_ignorebf</value>
+							<value>_IgnoreBF</value>
 							<namefilter>suffix</namefilter>
 						</_1>
 					</namefilter>
