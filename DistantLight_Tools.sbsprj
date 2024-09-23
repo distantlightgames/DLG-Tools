@@ -11,8 +11,8 @@
 	<preferences>
 		<view3d>
 			<statesavefileurl>file:///home/johnlogostini/.local/share/Allegorithmic/Substance Designer/user_view3d_settings.sbsscn</statesavefileurl>
-			<ispointlight2enable>false</ispointlight2enable>
-			<ispointlight1enable>false</ispointlight1enable>
+			<ispointlight2enable>true</ispointlight2enable>
+			<ispointlight1enable>true</ispointlight1enable>
 			<isambientlightenable>true</isambientlightenable>
 			<defaultshaderurl>sd-3dview-shaders://adobe_standard_material.glslfx</defaultshaderurl>
 			<defaultenvironmentmapurl>sd-3dview-maps://panorama_map.hdr</defaultenvironmentmapurl>
