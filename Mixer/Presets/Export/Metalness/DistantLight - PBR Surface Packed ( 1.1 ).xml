@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExportPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" PresetVersion="1">
+  <MixerVersion>2022.1.1</MixerVersion>
+  <Workflow>Metalness</Workflow>
+  <Maps>
+    <ExportMapPreset>
+      <CopyFromContextID>4140</CopyFromContextID>
+      <MapName>AR</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGBA</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>4141</CopyFromContextID>
+        <ContentName>Albedo R</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>4142</CopyFromContextID>
+        <ContentName>Albedo G</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>4143</CopyFromContextID>
+        <ContentName>Albedo B</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </BlueChannel>
+      <AlphaChannel>
+        <CopyFromContextID>4144</CopyFromContextID>
+        <ContentName>Roughness</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </AlphaChannel>
+      <InfoDetail>PNG, 8-bit</InfoDetail>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <CopyFromContextID>4145</CopyFromContextID>
+      <MapName>NOH</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>16-bit</BitDepthName>
+      <UsedChannels>RGBA</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>4146</CopyFromContextID>
+        <ContentName>Normal X</ContentName>
+        <NormalSettings>
+          <CopyFromContextID>4147</CopyFromContextID>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>4148</CopyFromContextID>
+        <ContentName>Normal Y</ContentName>
+        <NormalSettings>
+          <CopyFromContextID>4149</CopyFromContextID>
+          <Invert>true</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>4150</CopyFromContextID>
+        <ContentName>Ambient Occlusion</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+      <AlphaChannel>
+        <CopyFromContextID>4151</CopyFromContextID>
+        <ContentName>Displacement</ContentName>
+        <DisplacementSettings>
+          <CopyFromContextID>0</CopyFromContextID>
+          <Center>true</Center>
+          <Normalize>false</Normalize>
+          <Range>10</Range>
+        </DisplacementSettings>
+        <GammaSelection>1</GammaSelection>
+      </AlphaChannel>
+      <InfoDetail>PNG, 16-bit</InfoDetail>
+    </ExportMapPreset>
+  </Maps>
+</ExportPreset>

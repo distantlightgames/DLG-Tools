@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExportPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" PresetVersion="1">
+  <MixerVersion>2022.1.1</MixerVersion>
+  <Workflow>Metalness</Workflow>
+  <Maps>
+    <ExportMapPreset>
+      <CopyFromContextID>2769</CopyFromContextID>
+      <MapName>A</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGBA</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>2770</CopyFromContextID>
+        <ContentName>Albedo R</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>2771</CopyFromContextID>
+        <ContentName>Albedo G</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>2772</CopyFromContextID>
+        <ContentName>Albedo B</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </BlueChannel>
+      <AlphaChannel>
+        <CopyFromContextID>2773</CopyFromContextID>
+        <ContentName>Opacity</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </AlphaChannel>
+      <InfoDetail>PNG, 8-bit</InfoDetail>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <CopyFromContextID>2774</CopyFromContextID>
+      <MapName>E</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>2775</CopyFromContextID>
+        <ContentName>Emission R</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>2776</CopyFromContextID>
+        <ContentName>Emission G</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>2777</CopyFromContextID>
+        <ContentName>Emission B</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </BlueChannel>
+      <InfoDetail>PNG, 8-bit</InfoDetail>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <CopyFromContextID>2778</CopyFromContextID>
+      <MapName>N</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>16-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>2779</CopyFromContextID>
+        <ContentName>Normal X</ContentName>
+        <NormalSettings>
+          <CopyFromContextID>2780</CopyFromContextID>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>2781</CopyFromContextID>
+        <ContentName>Normal Y</ContentName>
+        <NormalSettings>
+          <CopyFromContextID>2782</CopyFromContextID>
+          <Invert>true</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>2783</CopyFromContextID>
+        <ContentName>Normal Z</ContentName>
+        <NormalSettings>
+          <CopyFromContextID>2784</CopyFromContextID>
+          <Invert>false</Invert>
+        </NormalSettings>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+      <InfoDetail>PNG, 16-bit</InfoDetail>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <CopyFromContextID>2785</CopyFromContextID>
+      <MapName>H</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>16-bit</BitDepthName>
+      <UsedChannels>Grayscale</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>2786</CopyFromContextID>
+        <ContentName>Displacement</ContentName>
+        <DisplacementSettings>
+          <CopyFromContextID>0</CopyFromContextID>
+          <Center>true</Center>
+          <Normalize>false</Normalize>
+          <Range>10</Range>
+        </DisplacementSettings>
+        <GammaSelection>1</GammaSelection>
+      </RedChannel>
+      <InfoDetail>PNG, 16-bit</InfoDetail>
+    </ExportMapPreset>
+    <ExportMapPreset>
+      <CopyFromContextID>2787</CopyFromContextID>
+      <MapName>ORM</MapName>
+      <Active>true</Active>
+      <Foldout>false</Foldout>
+      <IsEditable>false</IsEditable>
+      <FileFormatName>PNG</FileFormatName>
+      <BitDepthName>8-bit</BitDepthName>
+      <UsedChannels>RGB</UsedChannels>
+      <RedChannel>
+        <CopyFromContextID>2788</CopyFromContextID>
+        <ContentName>Ambient Occlusion</ContentName>
+        <GammaSelection>0</GammaSelection>
+      </RedChannel>
+      <GreenChannel>
+        <CopyFromContextID>2789</CopyFromContextID>
+        <ContentName>Roughness</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </GreenChannel>
+      <BlueChannel>
+        <CopyFromContextID>2790</CopyFromContextID>
+        <ContentName>Metalness</ContentName>
+        <GammaSelection>1</GammaSelection>
+      </BlueChannel>
+      <InfoDetail>PNG, 8-bit</InfoDetail>
+    </ExportMapPreset>
+  </Maps>
+</ExportPreset>
