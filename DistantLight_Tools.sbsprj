@@ -338,7 +338,7 @@
 					<macros>
 						<size>1</size>
 						<_1 prefix="_">
-							<value>MESH_POSITION</value>
+							<value>REPROJECTED_POSITION</value>
 							<key>$(custom)</key>
 						</_1>
 					</macros>
