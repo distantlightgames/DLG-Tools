@@ -67,7 +67,7 @@
 			<dirs>
 				<size>1</size>
 				<_1 prefix="_">
-					<url>$(PROJECT_DIR)://Templates</url>
+					<url>$(PROJECT_DIR)://Designer/Templates</url>
 				</_1>
 			</dirs>
 		</sbstemplates>
@@ -102,14 +102,14 @@
 			<watchedpaths>
 				<size>2</size>
 				<_2 prefix="_">
-					<url>$(PROJECT_DIR)://Materials</url>
+					<url>$(PROJECT_DIR)://Designer/Nodes</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
 					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_2>
 				<_1 prefix="_">
-					<url>$(PROJECT_DIR)://Nodes</url>
+					<url>$(PROJECT_DIR)://Designer/Materials</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
 					<excludepattern></excludepattern>
