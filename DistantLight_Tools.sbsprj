@@ -105,11 +105,15 @@
 					<url>$(PROJECT_DIR)://Materials</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_2>
 				<_1 prefix="_">
 					<url>$(PROJECT_DIR)://Nodes</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_1>
 			</watchedpaths>
 			<settingsinfo>
