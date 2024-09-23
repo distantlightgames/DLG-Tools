@@ -21,6 +21,9 @@
 			<workspaces>
 				<size>0</size>
 			</workspaces>
+			<settingsinfo>
+				<version>2</version>
+			</settingsinfo>
 		</versioncontrol>
 		<scripting>
 			<interpreters>
@@ -102,17 +105,18 @@
 					<url>$(PROJECT_DIR)://Designer/Nodes</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_2>
 				<_1 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Materials</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_1>
 			</watchedpaths>
+			<settingsinfo>
+				<version>2</version>
+			</settingsinfo>
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
