@@ -5,7 +5,7 @@ Distant Light Tools is a collection of tools created to assist in the creation o
 Supported Software Versions
 --------
 - Blender ``4.2.1``
-- Substance Painter ``10.0.1``
+- Substance Painter ``10.1.0``
 - Substance Designer ``12.4.1``
 
 Documentation
