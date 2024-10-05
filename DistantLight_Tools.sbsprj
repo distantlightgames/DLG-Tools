@@ -158,11 +158,17 @@
 					<_9 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -175,11 +181,23 @@
 					<_8 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Mask</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -192,11 +210,23 @@
 					<_7 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Alpha</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -209,11 +239,23 @@
 					<_6 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Height</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -237,7 +279,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -249,11 +291,23 @@
 					<_5 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Noise</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -277,7 +331,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -300,7 +354,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -323,7 +377,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -346,7 +400,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -369,7 +423,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -392,7 +446,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -415,7 +469,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -438,7 +492,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -461,7 +515,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -484,7 +538,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -496,11 +550,23 @@
 					<_4 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Grunge</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -524,7 +590,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -547,7 +613,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -570,7 +636,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -593,7 +659,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -616,7 +682,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -639,7 +705,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -662,7 +728,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -685,7 +751,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -708,7 +774,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -731,7 +797,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -743,11 +809,17 @@
 					<_3 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Generator</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -771,7 +843,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -794,7 +866,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -817,7 +889,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -840,7 +912,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -863,7 +935,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -886,7 +958,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -909,7 +981,7 @@
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype>graph</resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -926,11 +998,17 @@
 					<_21 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>PKGIcon</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -943,11 +1021,17 @@
 					<_20 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Logo</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -960,12 +1044,18 @@
 					<_2 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Surface</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>3</comparisonoperator>
+								</_2>
 								<_1 prefix="_">
 									<searchpattern>DistantLight</searchpattern>
 									<resourcemimetype></resourcemimetype>
 									<fieldid>2</fieldid>
-									<comparisonoperator>4</comparisonoperator>
+									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -977,11 +1067,17 @@
 					<_19 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Icon</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -994,11 +1090,17 @@
 					<_18 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Debug</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1011,11 +1113,17 @@
 					<_17 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Environment</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1028,11 +1136,17 @@
 					<_16 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Mesh</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1045,11 +1159,23 @@
 					<_15 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>UI</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1062,11 +1188,23 @@
 					<_14 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Surfaces</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1079,11 +1217,23 @@
 					<_13 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Mask</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1096,11 +1246,23 @@
 					<_12 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Grayscale</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1113,11 +1275,23 @@
 					<_11 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Compositing</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
@@ -1130,11 +1304,23 @@
 					<_10 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<searchpattern></searchpattern>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Color</searchpattern>
 									<resourcemimetype></resourcemimetype>
-									<fieldid>0</fieldid>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
 							</conditions>
