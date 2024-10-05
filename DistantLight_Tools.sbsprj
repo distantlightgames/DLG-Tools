@@ -100,17 +100,54 @@
 		</mdl>
 		<library>
 			<watchedpaths>
-				<size>2</size>
-				<_2 prefix="_">
-					<url>$(PROJECT_DIR)://Designer/Nodes</url>
+				<size>7</size>
+				<_7 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Meshes</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter></excludefilter>
+				</_7>
+				<_6 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Logos</url>
+					<isrecursive>true</isrecursive>
+					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
+				</_6>
+				<_5 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Icons</url>
+					<isrecursive>true</isrecursive>
+					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
+				</_5>
+				<_4 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Generators</url>
+					<isrecursive>true</isrecursive>
+					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
+				</_4>
+				<_3 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Filters</url>
+					<isrecursive>true</isrecursive>
+					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
+					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
+				</_3>
+				<_2 prefix="_">
+					<url>$(PROJECT_DIR)://Designer/Environments</url>
+					<isrecursive>true</isrecursive>
+					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_2>
 				<_1 prefix="_">
-					<url>$(PROJECT_DIR)://Designer/Materials</url>
+					<url>$(PROJECT_DIR)://Designer/Debug</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
+					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_1>
 			</watchedpaths>
@@ -125,8 +162,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -142,8 +177,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -159,8 +192,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -176,8 +207,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -193,8 +222,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -210,8 +237,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -227,8 +252,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -244,8 +267,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -261,8 +282,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -278,8 +297,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -295,8 +312,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -312,8 +327,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -329,8 +342,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -346,8 +357,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -363,8 +372,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -380,8 +387,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -397,8 +402,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -414,8 +417,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -431,8 +432,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -448,8 +447,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -465,8 +462,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -482,8 +477,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -499,8 +492,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -516,8 +507,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -533,8 +522,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -550,8 +537,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -567,8 +552,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -584,8 +567,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -601,8 +582,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -618,8 +597,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -635,8 +612,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -652,8 +627,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -669,8 +642,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -686,8 +657,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -708,8 +677,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -725,8 +692,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -742,8 +707,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -759,8 +722,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -776,8 +737,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -793,8 +752,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -810,8 +767,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -827,8 +782,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -844,8 +797,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -861,8 +812,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -878,8 +827,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -895,8 +842,6 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<searchpattern></searchpattern>
-									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
