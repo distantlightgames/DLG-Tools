@@ -117,6 +117,802 @@
 			<settingsinfo>
 				<version>2</version>
 			</settingsinfo>
+			<filters>
+				<queries>
+					<size>48</size>
+					<_9 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: All</label>
+						<id>qid_63</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_9>
+					<_8 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: Masks</label>
+						<id>qid_62</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_8>
+					<_7 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: Alphas</label>
+						<id>qid_61</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_7>
+					<_6 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: Height</label>
+						<id>qid_60</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_6>
+					<_5 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: Noise</label>
+						<id>qid_59</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_5>
+					<_48 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Snow</label>
+						<id>qid_101</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_48>
+					<_47 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Ice</label>
+						<id>qid_100</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_47>
+					<_46 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Asphalt</label>
+						<id>qid_99</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_46>
+					<_45 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Concrete</label>
+						<id>qid_98</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_45>
+					<_44 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Ceramic</label>
+						<id>qid_97</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_44>
+					<_43 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Bark</label>
+						<id>qid_96</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_43>
+					<_42 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Leaves</label>
+						<id>qid_95</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_42>
+					<_41 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Hair</label>
+						<id>qid_94</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_41>
+					<_40 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Fur</label>
+						<id>qid_93</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_40>
+					<_4 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: Grunge</label>
+						<id>qid_58</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_4>
+					<_39 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Skin</label>
+						<id>qid_92</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_39>
+					<_38 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Acrylic</label>
+						<id>qid_91</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_38>
+					<_37 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Composite</label>
+						<id>qid_90</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_37>
+					<_36 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Foam</label>
+						<id>qid_89</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_36>
+					<_35 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Rubber</label>
+						<id>qid_88</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_35>
+					<_34 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Vinyl</label>
+						<id>qid_87</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_34>
+					<_33 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Leather</label>
+						<id>qid_86</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_33>
+					<_32 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Marble</label>
+						<id>qid_85</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_32>
+					<_31 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Brick</label>
+						<id>qid_84</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_31>
+					<_30 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Water</label>
+						<id>qid_83</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_30>
+					<_3 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Generators: All</label>
+						<id>qid_57</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_3>
+					<_29 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Sand</label>
+						<id>qid_82</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_29>
+					<_28 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Soil</label>
+						<id>qid_81</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_28>
+					<_27 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Stone</label>
+						<id>qid_80</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_27>
+					<_26 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Fabric</label>
+						<id>qid_79</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_26>
+					<_25 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Glass</label>
+						<id>qid_78</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_25>
+					<_24 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Plastic</label>
+						<id>qid_77</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_24>
+					<_23 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Metal</label>
+						<id>qid_76</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_23>
+					<_22 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Wood</label>
+						<id>qid_73</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_22>
+					<_21 prefix="_">
+						<label>Distant Light: Materials</label>
+						<id>Folder 1</id>
+						<icon>.</icon>
+					</_21>
+					<_20 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>PKG Resource Icons</label>
+						<id>qid_75</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_20>
+					<_2 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>All Packages</label>
+						<id>qid_56</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_2>
+					<_19 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Logos: All</label>
+						<id>qid_74</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_19>
+					<_18 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Icons: All</label>
+						<id>qid_72</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_18>
+					<_17 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Debug: All</label>
+						<id>qid_71</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_17>
+					<_16 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Environment Maps: All</label>
+						<id>qid_70</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_16>
+					<_15 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Meshes: All</label>
+						<id>qid_69</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_15>
+					<_14 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Material</label>
+						<id>qid_68</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_14>
+					<_13 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Masks</label>
+						<id>qid_67</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_13>
+					<_12 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Grayscale</label>
+						<id>qid_66</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_12>
+					<_11 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Compositing</label>
+						<id>qid_65</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_11>
+					<_10 prefix="_">
+						<request>
+							<conditions>
+								<size>1</size>
+								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>0</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Color</label>
+						<id>qid_64</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_10>
+					<_1 prefix="_">
+						<label>Distant Light: Tools</label>
+						<id>Folder 2</id>
+					</_1>
+				</queries>
+			</filters>
 		</library>
 		<general>
 			<normal_map_format>directx</normal_map_format>
