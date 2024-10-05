@@ -105,56 +105,47 @@
 					<url>$(PROJECT_DIR)://Designer/Surfaces</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
-					<excludefilter></excludefilter>
 				</_8>
 				<_7 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Meshes</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_7>
 				<_6 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Logos</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_6>
 				<_5 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Icons</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_5>
 				<_4 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Generators</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_4>
 				<_3 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Filters</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_3>
 				<_2 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Environments</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_2>
 				<_1 prefix="_">
 					<url>$(PROJECT_DIR)://Designer/Debug</url>
 					<isrecursive>true</isrecursive>
 					<isenabled>true</isenabled>
-					<excludepattern></excludepattern>
 					<excludefilter>sbsar;bmp;exr;jpg;png;tga;tif;webp</excludefilter>
 				</_1>
 			</watchedpaths>
@@ -163,12 +154,14 @@
 			</settingsinfo>
 			<filters>
 				<queries>
-					<size>49</size>
+					<size>50</size>
 					<_9 prefix="_">
 						<request>
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -184,6 +177,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -199,6 +194,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -214,6 +211,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -224,11 +223,36 @@
 						<id>qid_60</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_6>
+					<_50 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Snow</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Snow</label>
+						<id>qid_101</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_50>
 					<_5 prefix="_">
 						<request>
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -242,25 +266,18 @@
 					<_49 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Ice</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 1</path>
-						<label>Snow</label>
-						<id>qid_101</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_49>
-					<_48 prefix="_">
-						<request>
-							<conditions>
-								<size>1</size>
+								</_2>
 								<_1 prefix="_">
-									<fieldid>0</fieldid>
-									<comparisonoperator>2</comparisonoperator>
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -268,14 +285,22 @@
 						<label>Ice</label>
 						<id>qid_100</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_48>
-					<_47 prefix="_">
+					</_49>
+					<_48 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Asphalt</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -283,14 +308,22 @@
 						<label>Asphalt</label>
 						<id>qid_99</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_47>
-					<_46 prefix="_">
+					</_48>
+					<_47 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Concrete</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -298,14 +331,22 @@
 						<label>Concrete</label>
 						<id>qid_98</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_46>
-					<_45 prefix="_">
+					</_47>
+					<_46 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Ceramic</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -313,14 +354,22 @@
 						<label>Ceramic</label>
 						<id>qid_97</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_45>
-					<_44 prefix="_">
+					</_46>
+					<_45 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Bark</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -328,14 +377,22 @@
 						<label>Bark</label>
 						<id>qid_96</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_44>
-					<_43 prefix="_">
+					</_45>
+					<_44 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Leaves</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -343,14 +400,22 @@
 						<label>Leaves</label>
 						<id>qid_95</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_43>
-					<_42 prefix="_">
+					</_44>
+					<_43 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Hair</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -358,14 +423,22 @@
 						<label>Hair</label>
 						<id>qid_94</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_42>
-					<_41 prefix="_">
+					</_43>
+					<_42 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Fur</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -373,14 +446,22 @@
 						<label>Fur</label>
 						<id>qid_93</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_41>
-					<_40 prefix="_">
+					</_42>
+					<_41 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Skin</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -388,12 +469,37 @@
 						<label>Skin</label>
 						<id>qid_92</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_41>
+					<_40 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Acrylic</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Acrylic</label>
+						<id>qid_91</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_40>
 					<_4 prefix="_">
 						<request>
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -407,25 +513,18 @@
 					<_39 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Composite</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 1</path>
-						<label>Acrylic</label>
-						<id>qid_91</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_39>
-					<_38 prefix="_">
-						<request>
-							<conditions>
-								<size>1</size>
+								</_2>
 								<_1 prefix="_">
-									<fieldid>0</fieldid>
-									<comparisonoperator>2</comparisonoperator>
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -433,14 +532,22 @@
 						<label>Composite</label>
 						<id>qid_90</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_38>
-					<_37 prefix="_">
+					</_39>
+					<_38 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Foam</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -448,14 +555,22 @@
 						<label>Foam</label>
 						<id>qid_89</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_37>
-					<_36 prefix="_">
+					</_38>
+					<_37 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Rubber</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -463,14 +578,22 @@
 						<label>Rubber</label>
 						<id>qid_88</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_36>
-					<_35 prefix="_">
+					</_37>
+					<_36 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Vinyl</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -478,14 +601,22 @@
 						<label>Vinyl</label>
 						<id>qid_87</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_35>
-					<_34 prefix="_">
+					</_36>
+					<_35 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Leather</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -493,14 +624,22 @@
 						<label>Leather</label>
 						<id>qid_86</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_34>
-					<_33 prefix="_">
+					</_35>
+					<_34 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Marble</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -508,14 +647,22 @@
 						<label>Marble</label>
 						<id>qid_85</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_33>
-					<_32 prefix="_">
+					</_34>
+					<_33 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Brick</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -523,14 +670,22 @@
 						<label>Brick</label>
 						<id>qid_84</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_32>
-					<_31 prefix="_">
+					</_33>
+					<_32 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Water</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -538,14 +693,22 @@
 						<label>Water</label>
 						<id>qid_83</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_31>
-					<_30 prefix="_">
+					</_32>
+					<_31 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Sand</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -553,12 +716,37 @@
 						<label>Sand</label>
 						<id>qid_82</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_31>
+					<_30 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Soil</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Soil</label>
+						<id>qid_81</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_30>
 					<_3 prefix="_">
 						<request>
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -572,25 +760,18 @@
 					<_29 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Stone</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 1</path>
-						<label>Soil</label>
-						<id>qid_81</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_29>
-					<_28 prefix="_">
-						<request>
-							<conditions>
-								<size>1</size>
+								</_2>
 								<_1 prefix="_">
-									<fieldid>0</fieldid>
-									<comparisonoperator>2</comparisonoperator>
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -598,14 +779,22 @@
 						<label>Stone</label>
 						<id>qid_80</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_28>
-					<_27 prefix="_">
+					</_29>
+					<_28 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Fabric</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -613,14 +802,22 @@
 						<label>Fabric</label>
 						<id>qid_79</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_27>
-					<_26 prefix="_">
+					</_28>
+					<_27 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Glass</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -628,14 +825,22 @@
 						<label>Glass</label>
 						<id>qid_78</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_26>
-					<_25 prefix="_">
+					</_27>
+					<_26 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Plastic</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -643,14 +848,22 @@
 						<label>Plastic</label>
 						<id>qid_77</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_25>
-					<_24 prefix="_">
+					</_26>
+					<_25 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Metal</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -658,20 +871,51 @@
 						<label>Metal</label>
 						<id>qid_76</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_24>
-					<_23 prefix="_">
+					</_25>
+					<_24 prefix="_">
 						<request>
 							<conditions>
-								<size>1</size>
-								<_1 prefix="_">
-									<fieldid>0</fieldid>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Wood</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
 									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
 						<path>Folder 1</path>
 						<label>Wood</label>
 						<id>qid_73</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_24>
+					<_23 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Surface</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype>graph</resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 1</path>
+						<label>Surfaces: All</label>
+						<id>qid_103</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_23>
 					<_22 prefix="_">
@@ -684,6 +928,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -699,6 +945,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -714,8 +962,10 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
-									<fieldid>0</fieldid>
-									<comparisonoperator>2</comparisonoperator>
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>4</comparisonoperator>
 								</_1>
 							</conditions>
 						</request>
@@ -729,6 +979,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -744,6 +996,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -759,6 +1013,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -774,6 +1030,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -789,6 +1047,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -804,6 +1064,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -819,6 +1081,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -834,6 +1098,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -849,6 +1115,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
@@ -864,6 +1132,8 @@
 							<conditions>
 								<size>1</size>
 								<_1 prefix="_">
+									<searchpattern></searchpattern>
+									<resourcemimetype></resourcemimetype>
 									<fieldid>0</fieldid>
 									<comparisonoperator>2</comparisonoperator>
 								</_1>
