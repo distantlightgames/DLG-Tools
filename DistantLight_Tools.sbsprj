@@ -1000,29 +1000,6 @@
 							<conditions>
 								<size>2</size>
 								<_2 prefix="_">
-									<searchpattern>PKGIcon</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
-								</_2>
-								<_1 prefix="_">
-									<searchpattern>DistantLight</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 2</path>
-						<label>PKG Resource Icons</label>
-						<id>qid_75</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_21>
-					<_20 prefix="_">
-						<request>
-							<conditions>
-								<size>2</size>
-								<_2 prefix="_">
 									<searchpattern>Logo</searchpattern>
 									<resourcemimetype></resourcemimetype>
 									<fieldid>2</fieldid>
@@ -1039,6 +1016,29 @@
 						<path>Folder 2</path>
 						<label>Logos: All</label>
 						<id>qid_74</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_21>
+					<_20 prefix="_">
+						<request>
+							<conditions>
+								<size>2</size>
+								<_2 prefix="_">
+									<searchpattern>Icon</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Icons: All</label>
+						<id>qid_72</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_20>
 					<_2 prefix="_">
@@ -1069,29 +1069,6 @@
 							<conditions>
 								<size>2</size>
 								<_2 prefix="_">
-									<searchpattern>Icon</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
-								</_2>
-								<_1 prefix="_">
-									<searchpattern>DistantLight</searchpattern>
-									<resourcemimetype></resourcemimetype>
-									<fieldid>2</fieldid>
-									<comparisonoperator>2</comparisonoperator>
-								</_1>
-							</conditions>
-						</request>
-						<path>Folder 2</path>
-						<label>Icons: All</label>
-						<id>qid_72</id>
-						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_19>
-					<_18 prefix="_">
-						<request>
-							<conditions>
-								<size>2</size>
-								<_2 prefix="_">
 									<searchpattern>Debug</searchpattern>
 									<resourcemimetype></resourcemimetype>
 									<fieldid>2</fieldid>
@@ -1109,8 +1086,8 @@
 						<label>Debug: All</label>
 						<id>qid_71</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_18>
-					<_17 prefix="_">
+					</_19>
+					<_18 prefix="_">
 						<request>
 							<conditions>
 								<size>2</size>
@@ -1132,8 +1109,8 @@
 						<label>Environments: All</label>
 						<id>qid_70</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_17>
-					<_16 prefix="_">
+					</_18>
+					<_17 prefix="_">
 						<request>
 							<conditions>
 								<size>2</size>
@@ -1155,8 +1132,8 @@
 						<label>Meshes: All</label>
 						<id>qid_69</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_16>
-					<_15 prefix="_">
+					</_17>
+					<_16 prefix="_">
 						<request>
 							<conditions>
 								<size>3</size>
@@ -1184,8 +1161,8 @@
 						<label>Filters: UI</label>
 						<id>qid_102</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_15>
-					<_14 prefix="_">
+					</_16>
+					<_15 prefix="_">
 						<request>
 							<conditions>
 								<size>3</size>
@@ -1213,8 +1190,8 @@
 						<label>Filters: Surfaces</label>
 						<id>qid_68</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_14>
-					<_13 prefix="_">
+					</_15>
+					<_14 prefix="_">
 						<request>
 							<conditions>
 								<size>3</size>
@@ -1242,8 +1219,8 @@
 						<label>Filters: Masks</label>
 						<id>qid_67</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_13>
-					<_12 prefix="_">
+					</_14>
+					<_13 prefix="_">
 						<request>
 							<conditions>
 								<size>3</size>
@@ -1271,8 +1248,8 @@
 						<label>Filters: Grayscale</label>
 						<id>qid_66</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
-					</_12>
-					<_11 prefix="_">
+					</_13>
+					<_12 prefix="_">
 						<request>
 							<conditions>
 								<size>3</size>
@@ -1299,6 +1276,35 @@
 						<path>Folder 2</path>
 						<label>Filters: Compositing</label>
 						<id>qid_65</id>
+						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
+					</_12>
+					<_11 prefix="_">
+						<request>
+							<conditions>
+								<size>3</size>
+								<_3 prefix="_">
+									<searchpattern>Normal</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_3>
+								<_2 prefix="_">
+									<searchpattern>Filter</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_2>
+								<_1 prefix="_">
+									<searchpattern>DistantLight</searchpattern>
+									<resourcemimetype></resourcemimetype>
+									<fieldid>2</fieldid>
+									<comparisonoperator>2</comparisonoperator>
+								</_1>
+							</conditions>
+						</request>
+						<path>Folder 2</path>
+						<label>Filters: Normals</label>
+						<id>qid_75</id>
 						<icon>:/pfx/editor/components/shelf/icons/query_default.svg</icon>
 					</_11>
 					<_10 prefix="_">
