@@ -1,0 +1,11 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Path Debug",
+	"toolType": "GENERATOR",
+	"toolTip": "Outputs the $DLGTOOLS and $CBEAMS environment variable paths to verify whether they are correctly set.",
+	"UE_SelectionType": "All",
+	"helpURL": "",
+	"iconPath": "C:/Users/johnl/Windows_11/Source/DLG_Tools/Houdini/Icons/DLG_Debug.png"
+}
