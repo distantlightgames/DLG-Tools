@@ -6,6 +6,5 @@
 	"toolType": "GENERATOR",
 	"toolTip": "Generates a soccer ball with control over some basic settings.",
 	"UE_SelectionType": "All",
-	"helpURL": "",
-	"iconPath": "C:/Users/johnl/Windows_11/Source/DLG_Tools/Houdini/Icons/DLG_Soccer_Ball.png"
+	"helpURL": ""
 }
