@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "UE Collision",
+	"toolType": "GENERATOR",
+	"toolTip": "DLG_UE_Collision",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
