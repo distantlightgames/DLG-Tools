@@ -1,0 +1,11 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Slice Bake",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Outputs a Slice Texture into a mesh's vertex colors with support for outputting as an FBX file.",
+	"UE_SelectionType": "All",
+	"helpURL": "",
+	"iconPath": "C:/Users/johnl/Windows_11/Source/DLG_Tools/Houdini/Icons/DLG_Baker.png"
+}
