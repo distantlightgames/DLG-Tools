@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "UV Maga Patches",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Generates UV tiles for larger objects such as rocks and cliffs.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
