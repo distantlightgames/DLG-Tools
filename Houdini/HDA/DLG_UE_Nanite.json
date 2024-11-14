@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Nanite",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Enables Nanite and gives controls over some additional Nanite settings.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
