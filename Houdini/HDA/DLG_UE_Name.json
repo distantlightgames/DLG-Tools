@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Name",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Controls the output name of the geo in Unreal.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
