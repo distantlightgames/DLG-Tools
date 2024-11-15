@@ -2,7 +2,7 @@
 	"target": [
 		"unreal"
 	],
-	"name": "Slice Bake",
+	"name": "Slice Baker",
 	"toolType": "OPERATOR_SINGLE",
 	"toolTip": "Outputs a Slice Texture into a mesh's vertex colors with support for outputting as an FBX file.",
 	"UE_SelectionType": "All",
