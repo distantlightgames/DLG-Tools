@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Terrain Import",
+	"toolType": "GENERATOR",
+	"toolTip": "Generate a Terrain based on a heightmap input",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
