@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Terrain Test",
+	"toolType": "GENERATOR",
+	"toolTip": "A basic rocky hills terrain for testing initial terrain workflows.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
