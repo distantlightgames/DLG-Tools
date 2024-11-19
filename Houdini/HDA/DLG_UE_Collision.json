@@ -2,9 +2,9 @@
 	"target": [
 		"unreal"
 	],
-	"name": "UE Collision",
-	"toolType": "GENERATOR",
-	"toolTip": "DLG_UE_Collision",
+	"name": "Collision",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Generates Unreal-friendly collision with support for Convex, Complex, and Primitive shapes.",
 	"UE_SelectionType": "All",
 	"helpURL": ""
 }
