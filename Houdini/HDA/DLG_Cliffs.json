@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Cliffs",
+	"toolType": "GENERATOR",
+	"toolTip": "Generates high-detail cliffs on the slopes of a terrain so Ian Smith can steal it from me.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
