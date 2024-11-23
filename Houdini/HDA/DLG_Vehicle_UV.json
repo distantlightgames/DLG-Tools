@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Vehicle UV",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "Generates and packs UVs for vehicle meshes.",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
