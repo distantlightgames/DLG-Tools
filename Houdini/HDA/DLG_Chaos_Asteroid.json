@@ -1,0 +1,10 @@
+{
+	"target": [
+		"unreal"
+	],
+	"name": "Chaos Asteroid",
+	"toolType": "OPERATOR_SINGLE",
+	"toolTip": "DLG_Chaos_Asteroid",
+	"UE_SelectionType": "All",
+	"helpURL": ""
+}
