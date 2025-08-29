@@ -1,3 +1,21 @@
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Mono
+.mono/
+data_*/
+mono_crash.*.json
+
+# Temporary Files
+*.spp.painter_lock
+*.assbin
+*.alg_meta
+/Reference
+
 # Autosaves
 *.blend*
 !*.blend
@@ -5,37 +23,19 @@
 *bak*.hda*
 *.autosave
 *_autosave_*.spp
-*.alg_meta
 
-# Temporary Files
-*.spp.painter_lock
-*.assbin
-Substance_Painter/*/README.txt
-
-# Linux Generated Files
+# Linux
 *~
 .directory
 *.kate-swp
 
-# Vim Generated Files
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-
-# Windows Generated Files
+# Windows 
 ehthumbs.db
 Thumbs.db
 
-# Mac Generated Files
+# Mac 
 .DS_Store
 .DS_Store?
 .AppleDouble
 .LSOverride
 ._*
-
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
