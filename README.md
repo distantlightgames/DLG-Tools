@@ -3,9 +3,11 @@ Distant Light Tools is a collection of tools created to assist in the creation o
 
 Engine and Software Versions
 --------
-- Blender ``4.4.3``
+- Blender ``4.5.1``
+- Houdini ``20.5.654``
 - Substance Painter ``10.1.2``
 - Substance Designer ``12.4.1``
+- Quixel Mixer ``2022.1.1``
 
 Documentation
 --------
