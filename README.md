@@ -11,4 +11,4 @@ Engine and Software Versions
 
 Documentation
 --------
-[Documentation - English](https://github.com/distantlightgames/DLG-Tools/blob/main/.docs/en/docs.md)
+[Documentation - English](https://github.com/distantlightgames/DLG-Tools/blob/main/Documentation/en/docs.md)
