@@ -1,1 +1,5 @@
-[Project Organization](https://github.com/jlogostini/LevelCap_Tools/blob/main/.docs/en/organization/organization.md)
+# [Workflows](https://github.com/distantlightgames/DLG-Tools/blob/main/.docs/en/workflows/workflows.md)
+Documentation related to workflows and pipelines with all DCCs used by Distant Light Games.
+
+# [Project Organization](https://github.com/distantlightgames/DLG-Tools/blob/main/.docs/en/organization/organization.md)
+Project organization, styles, and file naming conventions used for the project.
