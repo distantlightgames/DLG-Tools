@@ -1,24 +1,28 @@
 # Syntax and Textures names
-( A ) = ( Albedo ) ( Base Color ) ( Diffuse ) ( Color )
+``A`` = ( Albedo ) ( Base Color ) ( Diffuse ) ( Color )
 
-( E ) = ( Emission ) ( Emissive ) ( Glow ) ( Light )
+``NA`` = ( Neutral Albedo ) ( Tint )
 
-( H ) = ( Height ) ( Displacement ) ( Bump )
+``E`` = ( Emission ) ( Emissive ) ( Glow ) ( Light )
 
-( M ) = ( Metallic ) ( Metalness )
+``H`` = ( Height ) ( Displacement ) ( Bump )
 
-( N ) = ( Normal )
+``M`` = ( Metallic ) ( Metalness )
 
-( O ) = ( Ambient Occlusion ) ( Occlusion ) ( Self Shadowing )
+``N`` = ( Normal )
 
-( R ) = ( Roughness )
+``BN`` = ( Bent Normal )
 
-( REF ) = ( Refraction )
+``O`` = ( Ambient Occlusion ) ( Occlusion ) ( Self Shadowing )
 
-( SPEC ) = ( Specular )
+``R`` = ( Roughness )
 
-( SSS ) = ( Subsurface Scattering )
+``REF`` = ( Refraction )
 
-( T ) = ( Transparency ) ( Opacity ) ( Translucent )
+``S`` = ( Specular )
 
-( RGB ) = ( Mask ) ( Color ID )
+``SSS`` = ( Subsurface Scattering )
+
+``T`` = ( Transparency ) ( Opacity ) ( Translucency ) ( Visibility )
+
+``RGB`` = ( Mask ) ( Color ID )
