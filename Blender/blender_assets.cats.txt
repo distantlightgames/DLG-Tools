@@ -9,6 +9,11 @@ VERSION 1
 4bad7a91-56e0-48a4-9912-f99e21e851ef:Assets:Assets
 9d6692ab-f1e0-4c7c-a687-5d9bfef44a3c:Assets/Sculpting:Assets-Sculpting
 7a94d3d9-5a3b-4cb1-8d77-175d6a158d57:Assets/Sculpting/Asteroids:Assets-Sculpting-Asteroids
+923e1d8b-18ab-4174-8d4a-ba6d88faeaa7:Distant Light Games:Distant Light Games
+c436fc84-2b2d-4477-8243-b41117b95046:Distant Light Games/Brushes:Distant Light Games-Brushes
+390d0908-645e-4416-a216-22ace3504c1b:Distant Light Games/Brushes/Mesh Sculpt:Distant Light Games-Brushes-Mesh Sculpt
+4ad657aa-13c5-4090-9b98-abf8f000384c:Distant Light Games/Brushes/Mesh Sculpt/Stamps:Distant Light Games-Brushes-Mesh Sculpt-Stamps
+813b5888-c048-4984-8b99-7b7b32c7c23a:Distant Light Games/Brushes/Mesh Sculpt/Stamps/Asteroids:Distant Light Games-Brushes-Mesh Sculpt-Stamps-Asteroids
 e38b365d-622d-4b5f-8732-326c51b42dbd:Materials:Materials
 afa51565-62bc-4899-ba25-3560734b6ade:Materials/Node Groups:Materials-Node Groups
 5c69f570-ce54-42b6-b11a-244d3cc27648:Materials/Node Groups/Conversion:Materials-Node Groups-Conversion
