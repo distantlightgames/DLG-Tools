@@ -3,8 +3,8 @@ Distant Light Tools is a collection of tools and workflows created by JohnLogost
 
 Engine and Software Versions
 --------
-- Blender ``4.5.1``
-- Houdini ``20.5.654``
+- Blender ``4.5.4``
+- Houdini ``21.0.512``
 - Substance Painter ``10.1.2``
 - Substance Designer ``12.4.1``
 - Quixel Mixer ``2022.1.1``
